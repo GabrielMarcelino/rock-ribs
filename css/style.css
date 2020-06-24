@@ -1,0 +1,69 @@
+body{
+    background-image: url(../back.jpg);
+    background-repeat: no-repeat;
+    color: #FFF;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.brand{
+    width: 50%;
+    margin: 2% 25% 0;
+}
+hr{
+    width: 38%;
+    background-color: #FFF;
+}
+p{
+    font-size: 1.2em;
+    margin: 0 auto 1.5%;
+    padding: 0;
+    line-height: 25px;
+}
+p:nth-of-type(3){
+    font-size: 1.3em;
+    margin-bottom: 4%;
+}
+@media(max-width: 500px){
+    p{
+        font-size: 1em;
+    }
+    p:nth-of-type(3){
+        font-size: 1.1em;
+    }
+    .form-group{
+        padding: 0.5%;
+    }
+    body{
+        background-size: auto;
+    }
+}
+.submit-btn{
+    background-color: #28a745!important;
+}
+select,input{
+    border-radius: 13px!important;
+    background: rgba(255,255,255,.6)!important;
+    color: #FFF!important;
+}
+select option{
+  color: #000!important;
+}
+
+button{
+    border-radius: 10px!important;
+}
+#name::-webkit-input-placeholder, #email::-webkit-input-placeholder, #whatsapp::-webkit-input-placeholder {
+   color: #FFF;
+}
+ 
+#name:-moz-placeholder, #email:-moz-placeholder, #whatsapp:-moz-placeholder { /* Firefox 18- */
+   color: #FFF;  
+}
+ 
+#name::-moz-placeholder, #email::-moz-placeholder, #whatsapp::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFF;  
+}
+ 
+#name:-ms-input-placeholder, #email:-ms-input-placeholder, #whatsapp:-ms-input-placeholder {  
+   color: #FFF;  
+}
